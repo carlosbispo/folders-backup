@@ -1,0 +1,18 @@
+{
+  "name": "save_games",
+  "version": "1.0.0",
+  "description": "A small utility to backup save games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "save_games": "./index.js"
+  },
+  "author": "Carlos Bispo",
+  "license": "ISC",
+  "dependencies": {
+    "node-console-colors": "^1.1.4",
+    "node-ssh": "^12.0.2"
+  }
+}
